@@ -1,4 +1,4 @@
 - Add an initial entry to the CHANGES file.
-- Validate GitHub POST details and the secret.
+- Validate GitHub webhook secret.
 - Map commit authors to Twitter handles?
 - Suppress accidental @mentions in commit messages.

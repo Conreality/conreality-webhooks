@@ -27,6 +27,12 @@ if (empty($secret->consumer_key) || empty($secret->consumer_secret) ||
   fail_and_die("Missing credentials data");
 }
 
+if (@$_SERVER['HTTP_X_GITHUB_EVENT'] != 'push') {
+  http_response_code(200);
+  header('Content-Type: text/plain; charset=UTF-8');
+  die();
+}
+
 $push = file_get_contents('php://input');
 //file_put_contents('.push.json', $push);  // DEBUG
 //$push = file_get_contents('.push.json'); // DEBUG
