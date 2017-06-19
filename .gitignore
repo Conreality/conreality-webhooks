@@ -3,3 +3,9 @@
 
 # Editor backup files
 *~
+
+# JSON data files
+*.json
+
+# Composer vendor directory
+vendor/
