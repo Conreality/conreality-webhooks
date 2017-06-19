@@ -4,6 +4,9 @@
 # Editor backup files
 *~
 
+# Let's Encrypt domain validation
+.well-known/
+
 # JSON data files
 *.json
 
