@@ -1,4 +1,11 @@
+******
+To-Dos
+******
+
 - Add an initial entry to the CHANGES file.
+
 - Validate GitHub webhook secret.
+
 - Map commit authors to Twitter handles?
+
 - Suppress accidental @mentions in commit messages.

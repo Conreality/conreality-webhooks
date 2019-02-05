@@ -4,8 +4,8 @@
 # Editor backup files
 *~
 
-# Let's Encrypt domain validation
-.well-known/
+# rst2html outputs
+*.html
 
 # JSON data files
 *.json
