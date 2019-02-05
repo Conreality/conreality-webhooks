@@ -9,3 +9,7 @@
 
 # JSON data files
 *.json
+
+# Program binaries
+github_webhook
+github_webhook.zip
