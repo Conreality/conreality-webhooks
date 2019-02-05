@@ -9,6 +9,3 @@
 
 # JSON data files
 *.json
-
-# Composer vendor directory
-vendor/
